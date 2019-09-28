@@ -1,0 +1,16 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  margin: 0;
+  font-family: Roboto, 'Helvetica Neue', sans-serif;
+}
+
+button {
+  transition: all 250ms ease-in-out;
+
+  &.btn-grow {
+    transform: scaleX(1.1);
+  }
+}

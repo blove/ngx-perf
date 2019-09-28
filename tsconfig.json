@@ -18,6 +18,14 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "performance": [
+        "dist/performance"
+      ],
+      "performance/*": [
+        "dist/performance/*"
+      ]
+    }
   }
 }

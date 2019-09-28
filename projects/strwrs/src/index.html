@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <title>Strwrs</title>
+    <base href="/" />
+
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <link rel="icon" type="image/x-icon" href="favicon.ico" />
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto:300,400,500"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <script>
+      !(function() {
+        if ('PerformanceLongTaskTiming' in window) {
+          var g = (window.__tti = { e: [] });
+          g.o = new PerformanceObserver(function(l) {
+            g.e = g.e.concat(l.getEntries());
+          });
+          g.o.observe({ entryTypes: ['longtask'] });
+        }
+      })();
+    </script>
+  </head>
+  <body>
+    <str-root></str-root>
+  </body>
+</html>
